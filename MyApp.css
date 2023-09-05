@@ -1,0 +1,72 @@
+/* App.css */
+
+/* Styles for the overall page body */
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center elements */
+  align-items: center; /* Vertically center elements */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styles for the main content area */
+.main {
+  display: flex; /* Display as a flex container */
+  justify-content: center; /* Horizontally center elements */
+  align-items: flex-end; /* Vertically align elements to the bottom */
+  gap: 1em; /* Add spacing between child elements */
+  flex-direction: column; /* Stack child elements vertically */
+}
+
+/* Styles for the main content body */
+.main-body {
+  display: flex; /* Display as a flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  width: 600px; /* Set a fixed width */
+}
+
+/* Styles for form fields with spacing between them */
+.field {
+  margin-bottom: 1em; /* Add spacing between fields */
+}
+
+/* Styles for select elements with spacing between options */
+.select {
+  display: flex; /* Display as a flex container */
+  gap: 1em; /* Add spacing between child elements */
+}
+
+/* Styles for tags or labels */
+.tags {
+  display: flex; /* Display as a flex container */
+  justify-content: center; /* Horizontally center elements */
+  align-items: baseline; /* Align elements to their baselines */
+  gap: 1em; /* Add spacing between child elements */
+}
+
+/* Styles for bold labels */
+label {
+  font-weight: bold; /* Make labels bold */
+}
+
+/* Styles for text inputs and textareas */
+input[type="text"],
+textarea {
+  width: 100%; /* Take up 100% of available width */
+  padding: 0.5em; /* Add padding to input elements */
+  border: 1px solid #ccc; /* Add a 1px solid border with a light gray color */
+  border-radius: 4px; /* Add rounded corners */
+  font-size: 16px; /* Set font size to 16px */
+}
+
+/* Styles for radio buttons with spacing between them and labels */
+.ui.radio.checkbox input[type="radio"] {
+  margin-right: 0.5em; /* Add spacing between radio buttons and labels */
+}
+
+/* Styles for custom headings */
+.custom-heading {
+  margin-top: 0; /* Eliminate top margin for consistency */
+  font-size: 24px; /* Set font size to 24px */
+}
